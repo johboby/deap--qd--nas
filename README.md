@@ -485,5 +485,12 @@ Final Results:
 - 🌟 MIT 许可，开源免费
 
 ---
+# 📝 关于我们
 
-**最后更新**: 2026年1月14日 | **版本**: 4.0.0 | **Python**: 3.8+ | **维护者**: DEAP社区
+- **官网：** [https://www.cycu.top](https://www.cycu.top/)
+    
+- **邮箱：** [deeporigin@163.com](mailto:deeporigin@163.com)
+    
+
+![img](https://pic1.zhimg.com/80/v2-77aed7e43dc44ddd627ef4ac285b8296_720w.png)
+
