@@ -590,6 +590,14 @@ Thanks to:
 
 ---
 
+# 📝 关于我们
+
+- **官网：** [https://www.cycu.top](https://www.cycu.top/)
+    
+- **邮箱：** [deeporigin@163.com](mailto:deeporigin@163.com)
+    
+
+
 **Last Updated**: January 14, 2026  
 **Version**: 4.0.0  
 **Python**: 3.8+  
