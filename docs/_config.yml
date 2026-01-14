@@ -1,0 +1,91 @@
+# Jekyll Configuration for GitHub Pages
+# This file configures how GitHub Pages builds the site
+
+# Site settings
+title: DEAP v4.0 - QD-NAS
+description: Distributed Evolutionary Algorithms Platform with Quality-Diversity Neural Architecture Search
+url: https://johboby.github.io
+baseurl: /deap--qd--nas
+repository: johboby/deap--qd--nas
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Sass settings
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files and folders from the build
+exclude:
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - .gitignore
+  - .git
+  - node_modules/
+  - '.jekyll-cache/'
+  - 'vendor/'
+  - 'src/'
+  - 'tests/'
+  - 'examples/'
+  - 'scripts/'
+  - '*.egg-info/'
+  - '__pycache__/'
+
+# Include files
+include:
+  - '.nojekyll'
+
+# Settings for GitHub Pages
+github:
+  repository_url: https://github.com/johboby/deap--qd--nas
+
+# SEO settings
+author:
+  name: DEAP Community
+  email: contact@deap-project.com
+
+# Social settings
+social:
+  name: DEAP v4.0
+  links:
+    - https://github.com/johboby/deap--qd--nas
+    - https://github.com/johboby
+
+# Theme settings
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Timezone
+timezone: UTC
+
+# Encoding
+encoding: utf-8
+
+# Permalink style
+permalink: /:categories/:year/:month/:day/:title/
+
+# Pagination
+paginate: 10
+paginate_path: '/page/:num/'
+
+# Future posts
+future: false
+
+# Show drafts
+show_drafts: false
+
+# Time zone
+timezone: 'UTC'
